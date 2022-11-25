@@ -1,0 +1,40 @@
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe.config
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\WinSCP.exe
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\Colsubsidio_export.pdb
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\Renci.SshNet.dll
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\WinSCPnet.dll
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\bin\Debug\Renci.SshNet.xml
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\obj\Debug\Colsubsidio_export.csprojResolveAssemblyReference.cache
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe
+D:\INCONCERT PROYECTOS\IQ\COLSUBSIDIO\Colsubsidio_InOut\Colsubsidio_export\obj\Debug\Colsubsidio_export.pdb
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\WinSCP.exe
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe.config
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\Colsubsidio_export.pdb
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\WinSCPnet.dll
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CoreCompileInputs.cache
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CopyComplete
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\obj\Debug\Colsubsidio_export.pdb
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\Dapper.dll
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\Dapper.pdb
+D:\INCONCERT PROYECTOS\Proyectos Perú\ebonilla\VIRGIN\UploadFTP\Colsubsidio_export\bin\Debug\Dapper.xml
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\WinSCP.exe
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe.config
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe.manifest
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Colsubsidio_export.application
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Colsubsidio_export.pdb
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Dapper.dll
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\MySql.Data.dll
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\WinSCPnet.dll
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Dapper.pdb
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\bin\Debug\Dapper.xml
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.AssemblyReference.cache
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CoreCompileInputs.cache
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe.manifest
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.application
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CopyComplete
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe
+C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.pdb

@@ -1,0 +1,28 @@
+2020-10-22 11:10:39  Inicio proceso
+2020-10-22 11:10:39  Fecha fija: 2020-09-02
+2020-10-22 11:10:46  Fecha a procesar: 2020-09-02
+2020-10-22 11:10:51  Ruta del archivo: 2020_09_02
+2020-10-22 11:13:03  Inicio proceso
+2020-10-22 11:13:03  Fecha fija: 2020-09-02
+2020-10-22 11:13:03  Fecha a procesar: 2020-09-02
+2020-10-22 11:13:03  Ruta del archivo: 2020_09_02
+2020-10-22 11:14:50  Inicio proceso
+2020-10-22 11:14:50  Fecha fija: 2020-09-02
+2020-10-22 11:14:50  Fecha a procesar: 2020-09-02
+2020-10-22 11:14:50  Ruta del archivo: 2020_09_02
+2020-10-22 11:15:34  Inicio proceso
+2020-10-22 11:15:34  Fecha fija: 2020-09-02
+2020-10-22 11:15:34  Fecha a procesar: 2020-09-02
+2020-10-22 11:15:34  Ruta del archivo: 2020_09_02
+2020-10-22 11:31:40  Inicio proceso
+2020-10-22 11:31:40  Fecha fija: 2020-09-02
+2020-10-22 11:31:40  Fecha a procesar: 2020-09-02
+2020-10-22 11:31:40  Ruta del archivo: 2020_09_02
+2020-10-22 11:33:13  Inicio proceso
+2020-10-22 11:33:13  Fecha fija: 2020-09-02
+2020-10-22 11:33:13  Fecha a procesar: 2020-09-02
+2020-10-22 11:33:13  Ruta del archivo: 2020_09_02
+2020-10-22 11:35:04  Inicio proceso
+2020-10-22 11:35:04  Fecha fija: 2020-09-02
+2020-10-22 11:35:04  Fecha a procesar: 2020-09-02
+2020-10-22 11:35:04  Ruta del archivo: 2020_09_02
