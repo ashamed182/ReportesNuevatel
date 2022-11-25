@@ -38,3 +38,21 @@ C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuen
 C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CopyComplete
 C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe
 C:\Users\dudle\OneDrive\desktop\InConcert\Nuevatel\VirginMXUploadFTPReportesFuente (2)\VirginMXUploadFTPReportes\Colsubsidio_export\obj\Debug\Colsubsidio_export.pdb
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\WinSCP.exe
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe.config
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe.manifest
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Colsubsidio_export.application
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Colsubsidio_export.exe
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Colsubsidio_export.pdb
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Dapper.dll
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\MySql.Data.dll
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\WinSCPnet.dll
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Dapper.pdb
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\bin\Debug\Dapper.xml
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CoreCompileInputs.cache
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe.manifest
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.application
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.CopyComplete
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.exe
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.pdb
+C:\Desarrollo\ReportesNuevatel\Colsubsidio_export\obj\Debug\Colsubsidio_export.csproj.AssemblyReference.cache
