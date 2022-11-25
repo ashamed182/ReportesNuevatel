@@ -58,9 +58,11 @@ namespace Colsubsidio_export
                             {
                                 cmd.CommandType = CommandType.StoredProcedure;
                                 cmd.Parameters.Add("@StartDateTime", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
+                                cmd.Parameters.Add("@fechaFin", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
 
                                 sda.SelectCommand = cmd;
                                 DataTable dt = new DataTable();
+
                                 sda.Fill(dt);
                                 string header = string.Empty;
 

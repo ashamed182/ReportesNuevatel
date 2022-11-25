@@ -57,14 +57,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Colsubsidio_export.exe" size="11264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Colsubsidio_export.exe" size="11776">
       <assemblyIdentity name="Colsubsidio_export" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>tkFR9YJj93wAsKroVTjRzYDdnsI=</dsig:DigestValue>
+        <dsig:DigestValue>nAHOWBr4/7O92ImN/W7kRmVp6gE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -104,13 +104,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Colsubsidio_export.exe.config" size="1560">
+  <file name="Colsubsidio_export.exe.config" size="1575">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>eUhfXzfo07YGhLvFq8+Ys09pQ1U=</dsig:DigestValue>
+      <dsig:DigestValue>mFmMwUnz/4XrM5vJ9IKP9gP8PTc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="WinSCP.exe" size="19330256">
