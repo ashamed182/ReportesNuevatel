@@ -962,10 +962,6 @@ namespace Colsubsidio_export
 
         }
 
-        static void StroredProcedureReportDialerNoContactadoSFTP(String reporte12) { 
-        
-        }
-
         static void StoredProcedureRespuestasPortout(String reporte10)
         {
             try
@@ -1276,6 +1272,159 @@ namespace Colsubsidio_export
                 Thread.Sleep(10000);
             }
 
+        }
+
+        static void StroredProcedureReportDialerNoContactadoSFTP(String reporte12)
+        {
+            try
+            {
+                Console.WriteLine("inicio - Reporte Dialer No Contactados SFTP");
+                GuardarLog("----------inicio - Reporte Dialer No Contactados SFTP-----------");
+
+                string bd = ConfigurationManager.AppSettings["bd"];
+                string cmd_rutaarchivo = ConfigurationManager.AppSettings["cmd_rutaarchivo"];
+                string host = ConfigurationManager.AppSettings["sftp"];
+                int port = int.Parse(ConfigurationManager.AppSettings["port"]);
+                string username = ConfigurationManager.AppSettings["username"];
+                string password = ConfigurationManager.AppSettings["password"];
+                string ruta_reportes = ConfigurationManager.AppSettings["cmd_rutaarchivo"];
+                string remoteFileName = ConfigurationManager.AppSettings["ruta_archivosftp"];
+                string fecha_estatico = ConfigurationManager.AppSettings["fecha_estatico"];
+                string nomFileDownload = "";
+                string dateExecute = ValidateDateExecute();
+
+                GuardarLog("----------Inicia conexion a la base de datos-----------");
+
+                using (SqlConnection con = new SqlConnection(bd))
+                {
+
+                    string[] resultArray = ArrayCampaing("campaniasposventa1");
+
+                    for (int i = 0; i <= resultArray.Length; i++)
+                    {
+                        GuardarLog("----------inicio - Reporte Dialer No Contactados SFTP " + resultArray[i] + "-----------");
+
+                        using (SqlCommand cmd = new SqlCommand("ReportDialerNoContactadoSFTP", con))
+                        {
+                            cmd.CommandTimeout = 500;
+                            using (SqlDataAdapter sda = new SqlDataAdapter())
+                            {
+                                cmd.CommandType = CommandType.StoredProcedure;
+                                cmd.Parameters.Add("@Campaign", SqlDbType.VarChar).Value = resultArray[i];
+                                cmd.Parameters.Add("@StartDateTime", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
+
+
+                                sda.SelectCommand = cmd;
+                                DataTable dt = new DataTable();
+                                sda.Fill(dt);
+                                string header = string.Empty;
+
+                                GuardarLog("----------Se ejecuto SP - Report Dialer No Contactado SFTP " + resultArray[i] + "-----------");
+
+
+                                StringBuilder sb = new StringBuilder();
+
+                                foreach (DataRow row in dt.Rows)
+                                {
+                                    string[] fields = row.ItemArray.Select(field => field.ToString()).ToArray();
+                                    sb.AppendLine(string.Join(",", fields));
+                                }
+
+                                string csv = sb.ToString();
+
+                                string dateWithGuion = dateExecute.Replace("-", "_");
+                                string reporte11_1 = reporte11.Replace("{fecha}", dateWithGuion);
+                                string reporte11_2 = reporte11_1.Replace("{campaing}", resultArray[i]);
+
+                                StreamWriter outputFileTest = new StreamWriter(ruta_reportes + @"/" + reporte11_2, false, new UTF8Encoding(true));
+                                outputFileTest.Write(csv);
+                                outputFileTest.Close();
+
+                                GuardarLog("---------- Se creo archivo:  " + ruta_reportes + @"/" + reporte11_2 + "-----------");
+
+                                string rutad = ruta_reportes + reporte11_2;
+                                string rutad_copiar = ruta_reportes + dateExecute + @"\" + reporte11_2;
+
+                                //tiempo para que genere el reporte de sql a la ruta del servidor
+                                Thread.Sleep(10000);
+                                Console.WriteLine("fin_copias - Report Dialer No Contactado SFTP");
+
+                                //File.Copy(rutad, rutad_copiar);
+                                GuardarLog("Archivo copiado a raiz - fin_copias - Report Dialer No Contactado SFTP: " + rutad_copiar);
+
+                                Console.WriteLine("inicio de sftp - Report Dialer No Contactado SFTP");
+
+                                SessionOptions sessionOptions = new SessionOptions
+                                {
+                                    Protocol = Protocol.Sftp,
+                                    UserName = username,
+                                    Password = password,
+                                    HostName = host,
+                                    PortNumber = port,
+                                };
+
+                                using (Session session = new Session())
+                                {
+                                    Console.WriteLine("-----Entro SFTP - Report Dialer No Contactado SFTP ------");
+                                    GuardarLog("-----Login SFTP - Report Dialer No Contactado SFTP ------");
+                                    // Connect
+                                    session.Open(sessionOptions);
+                                    GuardarLog("-----Sesión abierta SFTP - Report Dialer No Contactado SFTP ------");
+                                    // Your code
+                                    TransferOptions transferOptions = new TransferOptions();
+                                    transferOptions.TransferMode = TransferMode.Binary;
+
+
+                                    TransferOperationResult transferResult4;
+                                    transferResult4 = session.PutFiles(ruta_reportes + reporte11_2, remoteFileName + "/", false, transferOptions);
+                                    // Throw on any error
+                                    transferResult4.Check();
+
+                                    GuardarLog("------ Report Dialer No Contactado SFTP transferido SFTP------");
+
+
+                                    // Print results
+                                    foreach (TransferEventArgs transfer in transferResult4.Transfers)
+                                    {
+                                        GuardarLog("Download of {0} succeeded" + transfer.FileName);
+                                        Console.WriteLine("Download of {0} succeeded", transfer.FileName);
+                                        nomFileDownload = transfer.FileName;
+                                    }
+                                }
+
+                                GuardarLog("-----Fin SFTP - Report Dialer No Contactado SFTP ------");
+
+                                Console.WriteLine("Elimando archivo: " + reporte11_2);
+
+                                GuardarLog("-----Inicio borrado archivo CSV : " + reporte11_2);
+
+                                File.Delete(reporte11_2);
+                                File.Delete(ruta_reportes + reporte11_2);
+
+                                GuardarLog("-----Inicio borrado carpeta que contiene archivo CSV Carpeta: " + ruta_reportes + dateExecute);
+                                GuardarLog("-----Inicio borrado carpeta que contiene archivo CSV Prueba Archivo: " + ruta_reportes + reporte11_2);
+                                //System.IO.Directory.Delete(ruta_reportes + dateExecute);
+                                GuardarLog("-----Archivos CSV eliminados------");
+                                Thread.Sleep(10000);
+
+                            }
+                        }
+                    }
+                }
+
+                Console.WriteLine("Fin - Report Dialer No Contactado SFTP");
+            }
+            catch (Exception ex)
+            {
+                GuardarLog("-----Error------");
+
+                File.Delete(reporte11);
+                GuardarLog("-----Archivos CSV eliminados------");
+
+                GuardarLog("Motivo del Error: " + ex.Message);
+                Console.WriteLine(ex.Message);
+                Thread.Sleep(10000);
+            }
         }
 
         static string ValidateDateExecute() 
