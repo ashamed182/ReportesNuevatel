@@ -53,18 +53,24 @@ namespace Colsubsidio_export
 
                         using (SqlCommand cmd = new SqlCommand("ReportDialerNoContactadoSFTP", con))
                         {
+                            cmd.Connection = con;
+                            cmd.CommandText = "ReportDialerNoContactadoSFTP";
+                            cmd.CommandType = CommandType.StoredProcedure;
                             cmd.CommandTimeout = 500;
-                            using (SqlDataAdapter sda = new SqlDataAdapter())
-                            {
-                                cmd.CommandType = CommandType.StoredProcedure;
-                                cmd.Parameters.Add("@StartDateTime", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
-                                cmd.Parameters.Add("@fechaFin", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
+                            cmd.Connection.Open();
 
-                                sda.SelectCommand = cmd;
+                        using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                            {
+                               // cmd.Parameters.AddWithValue("@fechaInicio", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
+                             //   cmd.Parameters.AddWithValue("@fechaFin", SqlDbType.Date).Value = Convert.ToDateTime(dateExecute);
+
+                                // sda.SelectCommand = cmd;
                                 DataTable dt = new DataTable();
 
                                 sda.Fill(dt);
                                 string header = string.Empty;
+
+                                cmd.Connection.Close();
 
                                 GuardarLog("----------Se ejecuto SP - Report Dialer No Contactado SFTP-----------");
 
